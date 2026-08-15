@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>News Portal - Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+
+<!-- ================= TOP HEADER ================= -->
+<div class="top-header">
+    <div class="container d-flex justify-content-between flex-wrap">
+        <div>
+            <span>📧 newsportal@gmail.com</span>
+            <span class="ms-3">📞 +880 1234-567890</span>
+        </div>
+
+        <div>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">YouTube</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="index.html">
+            📰 NEWS PORTAL
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       data-bs-toggle="dropdown">
+                        Category
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="category.html">National</a></li>
+                        <li><a class="dropdown-item" href="category.html">Politics</a></li>
+                        <li><a class="dropdown-item" href="category.html">Sports</a></li>
+                        <li><a class="dropdown-item" href="category.html">Education</a></li>
+                        <li><a class="dropdown-item" href="category.html">Entertainment</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="author.html">Author</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Reporter Login</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- ================= DATE TIME ================= -->
+<div class="date-bar">
+    <div class="container">
+        <span id="datetime"></span>
+    </div>
+</div>
+
+
+<!-- ================= BREAKING NEWS ================= -->
+<div class="breaking-news">
+    <div class="container-fluid">
+
+        <div class="breaking-title">
+            BREAKING NEWS
+        </div>
+
+        <div class="ticker">
+            <div id="tickerText">
+                New education policy announced today
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- ================= LEAD NEWS ================= -->
+<section class="container my-4">
+
+    <div class="row g-4">
+
+        <!-- Lead News -->
+        <div class="col-lg-8">
+
+            <div class="lead-news">
+
+                <img
+                    src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80"
+                    class="img-fluid"
+                    alt="News">
+
+                <div class="lead-content">
+                    <span class="badge bg-danger">BREAKING</span>
+
+                    <h2>
+                        Major Development Brings New Changes Across the Country
+                    </h2>
+
+                    <p>
+                        Important news and updates from around the country.
+                        Stay connected with News Portal for the latest information.
+                    </p>
+
+                    <a href="#" class="btn btn-primary">
+                        Read More
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Four News -->
+        <div class="col-lg-4">
+
+            <h4 class="section-title">Selected News</h4>
+
+            <div class="small-news">
+                <h5>National News Update</h5>
+                <p>Latest national news and information.</p>
+            </div>
+
+            <div class="small-news">
+                <h5>Sports News</h5>
+                <p>Today's latest sports updates.</p>
+            </div>
+
+            <div class="small-news">
+                <h5>Education News</h5>
+                <p>New education-related updates.</p>
+            </div>
+
+            <div class="small-news">
+                <h5>Entertainment News</h5>
+                <p>Latest entertainment stories.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= LATEST NEWS ================= -->
+<section class="container my-5">
+
+    <h2 class="section-heading">
+        Latest News
+    </h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card news-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=800&q=80"
+                    class="card-img-top">
+
+                <div class="card-body">
+
+                    <span class="badge bg-primary">
+                        Latest
+                    </span>
+
+                    <h5 class="card-title">
+                        Latest News Headline
+                    </h5>
+
+                    <p class="card-text">
+                        This is a short description of the latest news.
+                    </p>
+
+                    <a href="#" class="btn btn-dark">
+                        Read More
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card news-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&w=800&q=80"
+                    class="card-img-top">
+
+                <div class="card-body">
+
+                    <span class="badge bg-primary">
+                        Latest
+                    </span>
+
+                    <h5 class="card-title">
+                        Important News Today
+                    </h5>
+
+                    <p class="card-text">
+                        Read the latest information from our newsroom.
+                    </p>
+
+                    <a href="#" class="btn btn-dark">
+                        Read More
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card news-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=800&q=80"
+                    class="card-img-top">
+
+                <div class="card-body">
+
+                    <span class="badge bg-primary">
+                        Latest
+                    </span>
+
+                    <h5 class="card-title">
+                        New National Development
+                    </h5>
+
+                    <p class="card-text">
+                        Here is another important news update.
+                    </p>
+
+                    <a href="#" class="btn btn-dark">
+                        Read More
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= NATIONAL NEWS ================= -->
+<section class="container my-5">
+
+    <h2 class="section-heading">
+        National News
+    </h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card news-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1521292270410-a8c4d716d518?auto=format&fit=crop&w=800&q=80"
+                    class="card-img-top">
+
+                <div class="card-body">
+                    <h5>National News 01</h5>
+
+                    <p>
+                        Important national news and updates.
+                    </p>
+
+                    <a href="#" class="btn btn-primary">
+                        Read More
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card news-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1560174038-da43ac74f01b?auto=format&fit=crop&w=800&q=80"
+                    class="card-img-top">
+
+                <div class="card-body">
+                    <h5>National News 02</h5>
+
+                    <p>
+                        Read the latest national updates.
+                    </p>
+
+                    <a href="#" class="btn btn-primary">
+                        Read More
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card news-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?auto=format&fit=crop&w=800&q=80"
+                    class="card-img-top">
+
+                <div class="card-body">
+                    <h5>National News 03</h5>
+
+                    <p>
+                        Latest national information.
+                    </p>
+
+                    <a href="#" class="btn btn-primary">
+                        Read More
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= EDUCATION NEWS ================= -->
+<section class="container my-5">
+
+    <h2 class="section-heading">
+        Education News
+    </h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card news-card">
+
+                <div class="card-body">
+                    <span class="badge bg-success">
+                        Education
+                    </span>
+
+                    <h5 class="card-title">
+                        New Education Program
+                    </h5>
+
+                    <p>
+                        Latest education-related news and updates.
+                    </p>
+
+                    <a href="#" class="btn btn-success">
+                        Read More
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card news-card">
+
+                <div class="card-body">
+                    <span class="badge bg-success">
+                        Education
+                    </span>
+
+                    <h5 class="card-title">
+                        University News
+                    </h5>
+
+                    <p>
+                        Important updates from universities.
+                    </p>
+
+                    <a href="#" class="btn btn-success">
+                        Read More
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card news-card">
+
+                <div class="card-body">
+                    <span class="badge bg-success">
+                        Education
+                    </span>
+
+                    <h5 class="card-title">
+                        Student Achievement
+                    </h5>
+
+                    <p>
+                        Students achieve success in different fields.
+                    </p>
+
+                    <a href="#" class="btn btn-success">
+                        Read More
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= BIG FOOTER ================= -->
+<footer>
+
+    <div class="big-footer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <h4>News Portal</h4>
+
+                    <p>
+                        Your trusted source for the latest news
+                        and information.
+                    </p>
+                </div>
+
+
+                <div class="col-md-4">
+                    <h4>Quick Links</h4>
+
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="category.html">Category</a>
+                    <a href="author.html">Author</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+
+
+                <div class="col-md-4">
+                    <h4>Contact</h4>
+
+                    <p>📧 newsportal@gmail.com</p>
+                    <p>📞 +880 1234-567890</p>
+                    <p>📍 Dhaka, Bangladesh</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+        <p>
+            © 2026 News Portal. All Rights Reserved.
+        </p>
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<!-- Custom JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
