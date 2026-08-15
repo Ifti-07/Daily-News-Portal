@@ -1,6 +1,6 @@
-/* =========================================
+/*   =======
    CURRENT DATE & TIME
-========================================= */
+  ======= */
 
 function showDateTime() {
 
@@ -23,9 +23,9 @@ showDateTime();
 setInterval(showDateTime, 1000);
 
 
-/* =========================================
+/*   =======
    BREAKING NEWS TICKER
-========================================= */
+  ======= */
 
 const breakingNews = [
 
@@ -63,9 +63,9 @@ function changeBreakingNews() {
 setInterval(changeBreakingNews, 4000);
 
 
-/* =========================================
+/*   =======
    LOGIN CONFIRMATION POPUP
-========================================= */
+  ======= */
 
 const loginForm =
     document.getElementById("loginForm");
@@ -99,9 +99,9 @@ if (loginForm) {
 }
 
 
-/* =========================================
+/*   =======
    CONTACT FORM
-========================================= */
+  ======= */
 
 const contactForm =
     document.getElementById("contactForm");

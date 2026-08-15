@@ -1,4 +1,4 @@
-/* ================= GENERAL ================= */
+/*  GENERAL */
 
 body {
     margin: 0;
@@ -12,7 +12,7 @@ a {
 }
 
 
-/* ================= TOP HEADER ================= */
+/* TOP HEADER  */
 
 .top-header {
     background-color: #111;
@@ -31,7 +31,7 @@ a {
 }
 
 
-/* ================= DATE ================= */
+/* DATE */
 
 .date-bar {
     background: white;
@@ -41,7 +41,7 @@ a {
 }
 
 
-/* ================= NAVBAR ================= */
+/*   NAVBAR   */
 
 .navbar-brand {
     letter-spacing: 1px;
@@ -57,7 +57,7 @@ a {
 }
 
 
-/* ================= BREAKING NEWS ================= */
+/*   BREAKING NEWS   */
 
 .breaking-news {
     background-color: #dc3545;
@@ -101,7 +101,7 @@ a {
 }
 
 
-/* ================= LEAD NEWS ================= */
+/*   LEAD NEWS   */
 
 .lead-news {
     background-color: white;
@@ -121,7 +121,7 @@ a {
 }
 
 
-/* ================= SMALL NEWS ================= */
+/*   SMALL NEWS   */
 
 .section-title {
     border-left: 5px solid #dc3545;
@@ -142,7 +142,7 @@ a {
 }
 
 
-/* ================= SECTION HEADING ================= */
+/*   SECTION HEADING   */
 
 .section-heading {
     border-left: 5px solid #dc3545;
@@ -151,7 +151,7 @@ a {
 }
 
 
-/* ================= NEWS CARD ================= */
+/*   NEWS CARD   */
 
 .news-card {
     height: 100%;
@@ -170,7 +170,7 @@ a {
 }
 
 
-/* ================= CONTENT BOX ================= */
+/*   CONTENT BOX   */
 
 .content-box {
     background-color: white;
@@ -181,7 +181,7 @@ a {
 }
 
 
-/* ================= ADVERTISEMENT ================= */
+/*   ADVERTISEMENT   */
 
 .advertisement {
     height: 150px;
@@ -196,7 +196,7 @@ a {
 }
 
 
-/* ================= CONTACT ================= */
+/*   CONTACT   */
 
 .contact-info {
     background-color: white;
@@ -206,7 +206,7 @@ a {
 }
 
 
-/* ================= LOGIN ================= */
+/*   LOGIN   */
 
 .login-container {
     min-height: 500px;
@@ -228,7 +228,7 @@ a {
 }
 
 
-/* ================= FOOTER ================= */
+/*   FOOTER   */
 
 .big-footer {
     background-color: #111;
@@ -265,7 +265,7 @@ a {
 }
 
 
-/* ================= RESPONSIVE ================= */
+/*   RESPONSIVE   */
 
 @media (max-width: 768px) {
 
